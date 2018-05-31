@@ -1,0 +1,22 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+    display: none;
+}
+
+.showPic {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    margin: 10px;
+}
+
+.showPic img {
+    max-width: 60%;
+    max-height: 60%;
+    margin: 5px;
+}
+
+textarea {
+    resize: none;
+}
